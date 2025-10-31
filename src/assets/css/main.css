@@ -1,0 +1,32 @@
+:root{
+    --dark-bg: #13161d;
+    --grey-bg: #383739;
+    --white-bg: #f4f4f4;
+    --id-first-bg: #f0f0f0;
+    --id-secound-bg: #17344e;
+}
+
+.logo{
+    width: 30%;
+}
+
+.hero{
+    background: url(/src/assets/media/image/bga.png);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+h1.title{
+    color: var(--white-bg);
+}
+
+p.subtitle{
+    background: var(--id-secound-bg);
+    color: var(--white-bg);
+    width: 25%;
+    padding: 10px 10px;
+    border: var(--grey-bg) 0.1rem solid;
+    border-radius: 25px;
+}
